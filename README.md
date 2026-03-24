@@ -222,4 +222,4 @@ saturation_mut_heatmap.py:
 - Capable of generating heatmaps for multiple saturation mutagenesis results at a time
 >
 > ```python
-> python saturation_mut_heatmap.py predictions.csv
+> python saturation_mut_heatmap.py predict_output.csv

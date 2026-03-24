@@ -1,4 +1,4 @@
-**Degformer**
+#Degformer
 
 A transformer mode for prediction of protein stability index for
 28-residue peptides. Performs better than current composition or

@@ -1,4 +1,4 @@
-#Degformer
+# Degformer
 
 A transformer mode for prediction of protein stability index for
 28-residue peptides. Performs better than current composition or
@@ -140,7 +140,7 @@ Protein degron scanning:
 <img src="./media/image5.png"
 style="width:5.07091in;height:3.52916in" />
 
-Figure 4: Degron scanning of human GNMT.
+**Figure 4:** Degron scanning of human GNMT.
 
 **Setting up (VSCode):**
 
@@ -177,7 +177,7 @@ predict.py:
 - Provide input .csv file where first column is peptide name, and second
   column is the peptide sequence. Header should be (name, sequence).
 
-> Modes:
+Modes:
 
 - **Default:** predicts deltaPSI and controlPSI for peptides
 
@@ -191,38 +191,38 @@ predict.py:
   will predict PSI for all possible 28 residue fragments in order
   (overlapping adjacent fragments by 27 residues)
 
-> Usage:
+Usage:
+
+- Default prediction
 >
-> \# Default prediction
->
+> ```python
 > python predict.py --input predict_input.csv
+
+- Saturation mutagenesis
 >
-> \# Saturation mutagenesis
->
+> ```python
 > python predict.py --input predict_input.csv --mode sat_mut
+
+- Scanning mutagenesis (to Alanine)
 >
-> \# Scanning mutagenesis (to Alanine)
->
+> ```python
 > python predict.py --input predict_input.csv --mode scan_mut
+
+- Scanning mutagenesis (to Glycine)
 >
-> \# Scanning mutagenesis (to Glycine)
+> ```python
+> python predict.py --input predict_input.csv --mode scan_mut --residue G
+
+- Protein scanning
 >
-> python predict.py --input predict_input.csv --mode scan_mut --residue
-> G
->
-> \# Protein scanning
->
+> ```python
 > python predict.py --input predict_input.csv --mode protein
->
-> \- Fragment name for protein mode is based on position of rightmost
-> residue in protein (add 13 or 14 to the index for fragment center
-> format)
+
+- Fragment index for protein mode is based on position of rightmost residue in protein (add 13 or 14 to the index for fragment center format)
 
 saturation_mut_heatmap.py:
 
-- Input .csv should be the output from predict.py or formatted in the
-  same way
-
-> Usage:
+- Input .csv should be the output from predict.py or formatted in the same way
 >
+> ```python
 > python saturation_mut_heatmap.py predictions.csv

@@ -120,13 +120,13 @@ style="width:4.10448in;height:3.85681in" />
 **Figure 1:** Performance of Degformer e50 on S1 blind set.
 
 <img src="./media/image3.png"
-style="width:6.62265in;height:3.14583in" />
+style="width:13.2453in;height:6.29166in" />
 
 **Figure 2:** *in silico* saturation mutagenesis recovers diverse degron
 motifs.
 
 <img src="./media/image4.png"
-style="width:6.63542in;height:4.08028in" />
+style="width:13.27084in;height:8.16056in" />
 
 **Figure 3:** C-degrons are detected by Degformer. Addition of any
 residues to the ends of C-degrons stabilizes PDGFC (G-end), SNF8

@@ -1,4 +1,4 @@
-# Degformer
+**Degformer**
 
 A transformer mode for prediction of protein stability index for
 28-residue peptides. Performs better than current composition or
@@ -24,7 +24,8 @@ for degron motif detection, and generally stability prediction.
 
 - The other 10% was kept for final blind testing
 
-![](./media/image1.emf)
+<img src="./media/image1.png"
+style="width:6.60347in;height:3.61389in" />
 
 - Checkpoints for epoch 30 and 50 saved
 
@@ -113,17 +114,20 @@ available for S1.
 
 \* Statistics determined from entire 260K dataset for S1 only
 
+<img src="./media/image2.png"
+style="width:4.10448in;height:3.85681in" />
+
 **Figure 1:** Performance of Degformer e50 on S1 blind set.
 
 Saturation Mutagenesis:
 
-<img src="./media/image2.png"
+<img src="./media/image3.png"
 style="width:6.62265in;height:3.14583in" />
 
 **Figure 2:** *in silico* saturation mutagenesis recovers diverse degron
 motifs.
 
-<img src="./media/image3.png"
+<img src="./media/image4.png"
 style="width:6.63542in;height:4.08028in" />
 
 **Figure 3:** C-degrons are detected by Degformer. Addition of any
@@ -133,7 +137,8 @@ left).
 
 Protein degron scanning:
 
-![](./media/image4.emf)
+<img src="./media/image5.png"
+style="width:5.07091in;height:3.52916in" />
 
 Figure 4: Degron scanning of human GNMT.
 

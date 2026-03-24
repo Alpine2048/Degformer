@@ -119,8 +119,6 @@ style="width:4.10448in;height:3.85681in" />
 
 **Figure 1:** Performance of Degformer e50 on S1 blind set.
 
-Saturation Mutagenesis:
-
 <img src="./media/image3.png"
 style="width:6.62265in;height:3.14583in" />
 
@@ -134,8 +132,6 @@ style="width:6.63542in;height:4.08028in" />
 residues to the ends of C-degrons stabilizes PDGFC (G-end), SNF8
 (P-end), TRPC4AP (EE-end), GNMT (R-3) C-terminals (clockwise from top
 left).
-
-Protein degron scanning:
 
 <img src="./media/image5.png"
 style="width:5.07091in;height:3.52916in" />
@@ -223,6 +219,7 @@ Usage:
 saturation_mut_heatmap.py:
 
 - Input .csv should be the output from predict.py or formatted in the same way
+- Capable of generating heatmaps for multiple saturation mutagenesis results at a time
 >
 > ```python
 > python saturation_mut_heatmap.py predictions.csv

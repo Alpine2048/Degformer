@@ -173,6 +173,8 @@ predict.py:
 - Provide input .csv file where first column is peptide name, and second
   column is the peptide sequence. Header should be (name, sequence).
 
+- Set desired model checkpoint in python file. Recommended: peptide_model_epoch50.pt
+
 Modes:
 
 - **Default:** predicts deltaPSI and controlPSI for peptides

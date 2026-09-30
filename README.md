@@ -216,7 +216,7 @@ Usage:
 > ```python
 > python predict.py --input predict_input.csv --mode protein
 
-- Fragment index for protein mode is based on position of rightmost residue in protein (add 13 or 14 to the index for fragment center format)
+- Fragment index for protein mode is based on position of leftmost residue in protein (add 13 or 14 to the index for fragment center format)
 
 saturation_mut_heatmap.py:
 
